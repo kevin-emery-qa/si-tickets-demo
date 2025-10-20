@@ -13,7 +13,7 @@ npx playwright install
 npx playwright test
 
 # to run a single test in debug mode (with playwright explorer)
-npx playwright test -g "validate home page load" --debug
+npx playwright test -g "validate navigation from SI main site to SI tickets" --debug
 
 # to run a single test in headless mode
 npx playwright test -g "validate home page load"
